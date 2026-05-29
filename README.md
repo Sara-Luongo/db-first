@@ -1,6 +1,25 @@
-# car store 
+# cars store 
 
-## schema tabella `car`
+## schema tabella `store-cars`
 
-| Nome Colonna | Tipo | Attributi | Index|
-|---|---|---|--|
+| Nome Colonna | Tipo | Attributi | Index |
+|---|---|---|---|
+| ID | UNSIGNED INT | NOT NULL AND INCREMENT| PRIMARY KEY| 
+| BRAND CAR | VARCHAR(50) | NOT NULL | INDEX | 
+| VEHICLE TYPE | VARCHAR(50) | NOT NULL| INDEX |
+| PRICE | DECIMAL(6,3) | NOT NULL| INDEX |
+| MILEAGE | FLOAT(7,4) | NOT NULL| INDEX |
+| OWNER NUMBERS | TINYINT | NOT NULL AND DEFAULT|  |
+| YEAR OF REGISTRATION| SMALLINT | NOT NULL| |
+| CAR COLOR| TINYINT | NOT NULL |  |
+| INTERIOR COLOR | TINYINT | NULL |  |
+| DIMENSIONS | VARCHAR(50) | NULL |  |
+| CAPACITY | VARCHAR(50) | NOT NULL|  |
+| FUEL TYPE | ENUM('benzina','gpl','diesel') | NOT NULL|  |
+| ENGINE SIZE | SMALLINT | NOT NULL|  |
+| LAST REVISION | DATE | NOT NULL|  |
+| CHANGE TYPE | ENUM('automatic','manual') | NOT NULL |  |
+| AVAILABILITY | ENUM('true','false') | NOT NULL |  |
+| DESCRIPTION | TEXT | NOT NULL |  |
+| LICENSE | VARCHAR(7) | NOT NULL AND UNIQUE |  |
+
