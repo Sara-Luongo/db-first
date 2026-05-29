@@ -19,7 +19,7 @@
 | ENGINE SIZE | SMALLINT | NOT NULL|  |
 | LAST REVISION | DATE | NOT NULL|  |
 | CHANGE TYPE | ENUM('automatic','manual') | NOT NULL |  |
-| AVAILABILITY | ENUM('true','false') | NOT NULL |  |
+| AVIABILITY | ENUM('aviable','not aviable') | NOT NULL |  |
 | DESCRIPTION | TEXT | NOT NULL |  |
 | LICENSE | VARCHAR(7) | NOT NULL AND UNIQUE |  |
 
